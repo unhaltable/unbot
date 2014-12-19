@@ -37,6 +37,8 @@ GEM
       lita (>= 2.6)
     lita-coin (0.0.3)
       lita (>= 2.3)
+    lita-dice (0.0.1)
+      lita (>= 2.7)
     lita-forecast (0.1.7)
       compass_rose (~> 0.1.0)
       forecast_io (~> 2.0.0)
@@ -81,6 +83,7 @@ DEPENDENCIES
   lita-catfacts
   lita-catgif
   lita-coin
+  lita-dice
   lita-forecast
   lita-giphy
   lita-latex

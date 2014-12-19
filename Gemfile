@@ -30,3 +30,6 @@ gem 'lita-poll'
 
 # Coin flipping plugin
 gem 'lita-coin'
+
+# Dice-rolling plugin
+gem 'lita-dice'
