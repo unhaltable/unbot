@@ -24,4 +24,7 @@ Lita.configure do |config|
 
   # Configure Giphy API key
   config.handlers.giphy.api_key = ENV['GIPHY_API_KEY']
+
+  # Configure forecast.io API key
+  config.handlers.forecast.api_key = ENV['FORECAST_API_KEY']
 end

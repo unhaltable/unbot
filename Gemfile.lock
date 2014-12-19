@@ -1,12 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    compass_rose (0.1.3)
     eventmachine (1.0.3)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.9.1)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    forecast_io (2.0.0)
+      faraday
+      hashie
+      multi_json
+    geocoder (1.2.6)
+    hashie (3.3.2)
     http_router (0.11.1)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -28,6 +35,12 @@ GEM
       lita (>= 2.3)
     lita-catgif (0.0.2)
       lita (>= 2.6)
+    lita-forecast (0.1.7)
+      compass_rose (~> 0.1.0)
+      forecast_io (~> 2.0.0)
+      geocoder (~> 1.1, >= 1.1.9)
+      hashie (~> 3.0)
+      lita (>= 3.0.0)
     lita-giphy (1.0.2)
       lita (>= 2.0)
     lita-latex (0.0.3)
@@ -63,6 +76,7 @@ DEPENDENCIES
   lita
   lita-catfacts
   lita-catgif
+  lita-forecast
   lita-giphy
   lita-latex
   lita-slack

@@ -21,3 +21,6 @@ gem 'lita-giphy'
 
 # LaTeX plugin
 gem 'lita-latex'
+
+# forecast.io plugin
+gem 'lita-forecast'
