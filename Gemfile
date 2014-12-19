@@ -9,3 +9,6 @@ gem 'lita-slack'
 
 # XKCD plugin
 gem 'lita-xkcd'
+
+# Cat GIF plugin
+gem 'lita-catgif'
