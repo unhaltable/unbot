@@ -2,6 +2,9 @@ Lita.configure do |config|
   # Bot name
   config.robot.name = 'unbot'
 
+  # Also use the '$' alias
+  config.robot.alias = '$'
+
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
   # Messages at the selected level and above will be logged.
