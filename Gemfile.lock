@@ -45,6 +45,8 @@ GEM
       lita (>= 2.0)
     lita-latex (0.0.3)
       lita
+    lita-poll (1.0.1)
+      lita (>= 3.3)
     lita-slack (1.0.3)
       eventmachine
       faraday
@@ -79,5 +81,6 @@ DEPENDENCIES
   lita-forecast
   lita-giphy
   lita-latex
+  lita-poll
   lita-slack
   lita-xkcd

@@ -24,3 +24,6 @@ gem 'lita-latex'
 
 # forecast.io plugin
 gem 'lita-forecast'
+
+# Polling plugin
+gem 'lita-poll'
