@@ -30,6 +30,8 @@ GEM
       lita (>= 2.6)
     lita-giphy (1.0.2)
       lita (>= 2.0)
+    lita-latex (0.0.3)
+      lita
     lita-slack (1.0.3)
       eventmachine
       faraday
@@ -62,5 +64,6 @@ DEPENDENCIES
   lita-catfacts
   lita-catgif
   lita-giphy
+  lita-latex
   lita-slack
   lita-xkcd

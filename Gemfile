@@ -18,3 +18,6 @@ gem 'lita-catfacts'
 
 # Giphy plugin
 gem 'lita-giphy'
+
+# LaTeX plugin
+gem 'lita-latex'
