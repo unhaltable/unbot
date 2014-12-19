@@ -6,3 +6,6 @@ gem 'lita'
 
 # Use the Slack adapter
 gem 'lita-slack'
+
+# XKCD plugin
+gem 'lita-xkcd'
