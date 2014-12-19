@@ -12,3 +12,9 @@ gem 'lita-xkcd'
 
 # Cat GIF plugin
 gem 'lita-catgif'
+
+# Cat fact plugin
+gem 'lita-catfacts'
+
+# Giphy plugin
+gem 'lita-giphy'

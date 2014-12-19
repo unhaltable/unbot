@@ -21,4 +21,7 @@ Lita.configure do |config|
     config.redis[:url] = ENV.fetch('REDIS_URL', nil)
     config.http.port = ENV.fetch('PORT', nil)
   end
+
+  # Configure Giphy API key
+  config.handlers.giphy.api_key = ENV['GIPHY_API_KEY']
 end
