@@ -1,3 +1,5 @@
+require 'handlers/gif_limiter'
+
 Lita.configure do |config|
   # Bot name
   config.robot.name = 'unbot'
