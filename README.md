@@ -13,5 +13,9 @@ In Slack, either private message unbot or post in a channel or private group wit
 
     unbot help
 
+Or, equivalently:
+
+    $ help
+
 [codeship-badge]: https://codeship.com/projects/ae532160-694b-0132-a034-265187a17dc6/status?branch=master
 [codeship]: https://codeship.com/projects/53536
