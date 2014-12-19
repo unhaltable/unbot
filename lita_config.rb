@@ -15,4 +15,10 @@ Lita.configure do |config|
   # Use the Slack adapter
   config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
+
+  # Configure redis using Redis To Go if on Heroku
+  if ENV.has_key? 'REDISTOGO_URL'
+    config.redis[:url] = ENV.fetch('REDISTOGO_URL', nil)
+    config.http.port = ENV.fetch('PORT', nil)
+  end
 end
