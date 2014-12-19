@@ -18,8 +18,8 @@ Lita.configure do |config|
 
   # Configure redis using Redis To Go if on Heroku
   if ENV.has_key? 'REDIS_URL'
-    config.redis[:url] = ENV.fetch('REDIS_URL', nil)
-    config.http.port = ENV.fetch('PORT', nil)
+    config.redis[:url] = ENV['REDIS_URL']
+    config.http.port = ENV['PORT']
   end
 
   # Configure Giphy API key
