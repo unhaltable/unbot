@@ -27,3 +27,6 @@ gem 'lita-forecast'
 
 # Polling plugin
 gem 'lita-poll'
+
+# Coin flipping plugin
+gem 'lita-coin'
