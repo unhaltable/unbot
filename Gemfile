@@ -12,3 +12,6 @@ gem 'lita-xkcd'
 
 # Cat GIF plugin
 gem 'lita-catgif'
+
+# ASCII art plugin
+gem 'lita-ascii-art'
