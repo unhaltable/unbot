@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/elliottsj/lita-latex.git
+  revision: 5b51a2752d1acb683b0a94d3c2bbc439392664d6
+  specs:
+    lita-latex (0.0.3)
+      lita
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -45,8 +52,6 @@ GEM
       lita (>= 3.0.0)
     lita-giphy (1.0.2)
       lita (>= 2.0)
-    lita-latex (0.0.3)
-      lita
     lita-slack (1.0.3)
       eventmachine
       faraday
@@ -81,6 +86,6 @@ DEPENDENCIES
   lita-coin
   lita-forecast
   lita-giphy
-  lita-latex
+  lita-latex!
   lita-slack
   lita-xkcd
