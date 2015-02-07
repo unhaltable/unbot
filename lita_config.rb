@@ -1,9 +1,11 @@
+require './handlers/gif_limiter'
+
 Lita.configure do |config|
   # Bot name
-  config.robot.name = 'unbot'
+  config.robot.name = ENV.fetch('BOT_NAME', 'unbot')
 
   # Also use the '$' alias
-  config.robot.alias = '$'
+  config.robot.alias = ENV['BOT_ALIAS'] if ENV.has_key? 'BOT_ALIAS'
 
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
@@ -20,10 +22,10 @@ Lita.configure do |config|
   config.adapters.slack.token = ENV['SLACK_TOKEN']
 
   # Configure redis using Redis To Go if on Heroku
-  if ENV.has_key? 'REDIS_URL'
-    config.redis[:url] = ENV['REDIS_URL']
-    config.http.port = ENV['PORT']
-  end
+  config.redis[:url] = ENV['REDIS_URL'] if ENV.has_key? 'REDIS_URL'
+
+  # Set port if available
+  config.http.port = ENV['PORT'] if ENV.has_key? 'PORT'
 
   # Configure Giphy API key
   config.handlers.giphy.api_key = ENV['GIPHY_API_KEY']
