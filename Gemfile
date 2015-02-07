@@ -27,3 +27,5 @@ gem 'lita-forecast'
 
 # Coin flipping plugin
 gem 'lita-coin'
+
+gem 'rake'
