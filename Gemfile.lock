@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/elliottsj/lita-latex.git
-  revision: 37e83e1ef5cee0b764ef83ce1948e3c859210a33
+  revision: a0d084b544bde654f73e4eb99ac3d594eb4fcd01
   specs:
     lita-latex (0.0.3)
       lita
