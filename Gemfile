@@ -20,10 +20,12 @@ gem 'lita-catfacts'
 gem 'lita-giphy'
 
 # LaTeX plugin
-gem 'lita-latex'
+gem 'lita-latex', github: 'elliottsj/lita-latex'
 
 # forecast.io plugin
 gem 'lita-forecast'
 
 # Coin flipping plugin
 gem 'lita-coin'
+
+gem 'rake'
