@@ -25,11 +25,5 @@ gem 'lita-latex'
 # forecast.io plugin
 gem 'lita-forecast'
 
-# Polling plugin
-gem 'lita-poll'
-
 # Coin flipping plugin
 gem 'lita-coin'
-
-# Dice-rolling plugin
-gem 'lita-dice'
